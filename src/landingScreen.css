@@ -1,0 +1,82 @@
+
+
+@media screen and (min-width: 768px) {
+    .Ascreen{
+        justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    }
+
+    .but{
+        background-color: rgb(117,195,178); /* Green */
+  border: none;
+  color: black;
+  padding: 10px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  border-radius: 30px;
+  width: 20%;
+  cursor: pointer;
+    }
+
+    .reg{
+        text-align: center;
+        font-size: medium;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .Ascreen{
+        justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    }
+
+    .but{
+        background-color: #75C3B2; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 30px;
+  margin: 4px 2px;
+  width: 30%;
+  cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 368px) {
+  .Ascreen{
+        justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    }
+
+    .but{
+        background-color: #75C3B2; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 30px;
+  margin: 4px 2px;
+  width: 50%;
+  cursor: pointer;
+    }
+}
